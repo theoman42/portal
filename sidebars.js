@@ -612,6 +612,33 @@ const sidebars = {
             id: "developer-docs/integrations/rosetta/index",
           },
           items: [
+            {
+              type: "category",
+              label: "ICP Rosetta Implementation",
+              link: {
+                type: "doc",
+                id: "developer-docs/integrations/rosetta/icp_rosetta/index",
+              },
+              items: [
+                {
+                  type: "category",
+                  label: "Data-API",
+                  link: {
+                    type: "doc",
+                    id: "developer-docs/integrations/rosetta/icp_rosetta/data_api/index",
+                  },
+                  items: [
+                    "developer-docs/integrations/rosetta/icp_rosetta/data_api/network",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/balances",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/blocks",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/transactions",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/list_known_neurons",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/get_pending_proposals",
+                   "developer-docs/integrations/rosetta/icp_rosetta/data_api/get_proposal_info",
+                  ],
+                }
+              ],
+            },
             //"developer-docs/integrations/rosetta/hotkeys",
             //"developer-docs/integrations/rosetta/neuron-lifecycle",
             //"developer-docs/integrations/rosetta/staking-support",
